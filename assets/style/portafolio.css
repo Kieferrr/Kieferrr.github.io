@@ -1,3 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: black;
+    background: linear-gradient(to right, white, black);
+    font-family: "Overpass", serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Limelight", serif;
+}
+
+p {
+    font-size: 32px;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.filasportafolio1 {
+    background: linear-gradient(to right, #ffffff, #9e9d9d);
+}
+
+.filasportafolio2 {
+    background: linear-gradient(to right, #ffffff, #272626);
+}
+
+.bordeizquierda {
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.bordederecha {
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 5px solid black;
+}
+
+.bordeprimeroizq {
+    border-top: 5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.bordeprimeroder {
+    border-top: 5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 5px solid black;
+}
+
+
+.bordeultimoizq {
+    border-top: 2.5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.bordeultimoder {
+    border-top: 2.5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 5px solid black;
+}
+
+.piedepagina {
+    background-color: white;
+    font-family: "Overpass", serif;
+}
+
+.piedepagina p{
+    font-size: 16px;
 }

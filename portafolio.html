@@ -8,12 +8,21 @@
     <!-- CDN bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Limelight&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/favicon/cv.png" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/style/portafolio.css">
 </head>
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid m-0 p-0">
             <!-- NAVBAR -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -28,18 +37,25 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#acercademi">Acerca de mi</a>
+                                <a class="nav-link" aria-current="page" href="#proyecto1">Proyecto 1</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#equipos">Equipos</a>
+                                <a class="nav-link" href="#proyecto2">Proyecto 2</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#logros">Logros</a>
+                                <a class="nav-link" href="#proyecto3">Proyecto 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyecto4">Proyecto 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyecto5">Proyecto 5</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <!-- TITULO -->
             <div class="row">
                 <h1 class="text-center p-0 m-0 py-3">Portafolio</h1>
 
@@ -49,64 +65,72 @@
     <main>
         <div class="container">
             <!-- proyecto 1 -->
-            <div class="row filasportafolio">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 1</p>
+            <div class="row filasportafolio1" id="proyecto1">
+                <div class="col d-flex justify-content-center align-items-center bordeprimeroizq">
+                    <p class="text-center">Proyecto 1 <br> <span class="fw-light">HTML
+                    </span></p>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_curriculum.png" alt="">
+                <div class="col d-flex justify-content-center align-items-center bordeprimeroder">
+                    <img src="assets/img/ss_html.png" alt="">
                 </div>
             </div>
             <!-- proyecto 2  -->
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 2</p>
+            <div class="row filasportafolio2" id="proyecto2">
+                <div class="col d-flex justify-content-center align-items-center bordeizquierda">
+                    <p class="text-center">Proyecto 2 <br> <span class="fw-light">CSS
+                    </span></p>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_landingpage.jpg" alt="">
+                <div class="col d-flex justify-content-center align-items-center bordederecha">
+                    <img src="assets/img/ss_css.jpg" alt="">
                 </div>
             </div>
             <!-- proyecto 3  -->
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 3</p>
+            <div class="row filasportafolio1" id="proyecto3">
+                <div class="col d-flex justify-content-center align-items-center bordeizquierda">
+                    <p class="text-center">Proyecto 3 <br> <span class="fw-light">Flex
+                    </span></p>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_iguanapage.png" alt="">
-                </div>
-            </div>
-            <!-- proyecto 4  -->
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 4</p>
-                </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_cupponweb.png" alt="">
+                <div class="col d-flex justify-content-center align-items-center bordederecha">
+                    <img src="assets/img/ss_flex.png" alt="">
                 </div>
             </div>
             <!-- proyecto 4  -->
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 4</p>
+            <div class="row filasportafolio2" id="proyecto4">
+                <div class="col d-flex justify-content-center align-items-center bordeizquierda">
+                    <p class="text-center">Proyecto 4 <br> <span class="fw-light">Bootstrap (Web)
+                    </span></p>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_cupponmobile.png" alt="">
+                <div class="col d-flex justify-content-center align-items-center bordederecha">
+                    <img src="assets/img/ss_bootstrapweb.png" alt="">
+                </div>
+            </div>
+            <!-- proyecto 4  -->
+            <div class="row filasportafolio1">
+                <div class="col d-flex justify-content-center align-items-center bordeizquierda">
+                    <p class="text-center">Proyecto 4 <br> <span class="fw-light">Bootstrap (Mobile)
+                    </span></p>
+                    </div>
+                <div class="col d-flex justify-content-center align-items-center bordederecha">
+                    <img src="assets/img/ss_bootstrapmobile.png" alt="">
                 </div>
             </div>
             <!-- proyecto 5  -->
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <p>Proyecto 5</p>
+            <div class="row filasportafolio2" id="proyecto5">
+                <div class="col d-flex justify-content-center align-items-center bordeultimoizq">
+                    <p class="text-center">Proyecto 5 <br> <span class="fw-light">Git y GitHub
+                    </span></p>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center border">
-                    <img src="assets/img/ss_GitHub.png" alt="">
+                <div class="col d-flex justify-content-center align-items-center bordeultimoder">
+                    <img src="assets/img/ss_git.png" alt="">
                 </div>
             </div>
             
     </main>
-
-    <footer>
-
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row piedepagina">
+            <p class="d-flex justify-content-center m-0 py-2">© Portafolio Kiefer 2025.</p>
+        </div>
     </footer>
     <!-- CDN bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
