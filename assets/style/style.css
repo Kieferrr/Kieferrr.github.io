@@ -4,20 +4,28 @@
 }
 
 body {
-    background-color: black;
+    background: linear-gradient(45deg, white, black)
 }
 
 .izquierda {
-    background-color: rgb(70, 70, 243);
+    background: linear-gradient(to right, #424242, #afaeae);
+
+}
+
+img {
+    background: linear-gradient(to right, #424242, #afaeae);
+    padding-bottom: 4px;
+
 }
 
 .derecha {
-    background: rgb(230, 225, 225);
+    background: linear-gradient(to right, #ffffff, #9e9d9d);
 }
 
 .separacion {
-    background: rgb(240, 220, 195);
+    background: linear-gradient(to right, #ffffff, #000000);
     font-family: "Overpass", serif;
+    color: white;
 
 }
 
@@ -28,11 +36,12 @@ body {
 #nicolas {
     font-size: 2em;
     font-family: "Overpass", serif;
+
 }
 
 #kiefer {
     font-size: 2.5em;
-    font-family: "Overpass", serif;
+    font-family: "Limelight", serif;
     font-style: italic;
 
 }
