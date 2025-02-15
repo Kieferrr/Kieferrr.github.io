@@ -8,53 +8,174 @@
     <!-- CDN bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/style/style.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Grechen+Fuemen&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CDN fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+</head>
+<!-- CSS -->
+<link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Curriculum</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- CONTENEDOR DE CURRICULUM -->
+        <div class="container">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Curriculum</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- FOTO Y NOMBRE -->
+            <div class="container-fluid row align-items-center p-0 m-0 derecha">
+                <div class="col-12 col-sm-4 text-center izquierda">
+                    <img src="assets/img/foto_perfil.jpg" class="img-fluid rounded-circle border-dark bg-white my-3"
+                        alt="Perfil">
+                </div>
+
+                <div class="col derecha">
+                    <h1 class="d-flex flex-column my-3">
+                        <span id="nicolas" class="text-start mx-5">Nicolás</span>
+                        <span id="kiefer" class="text-center">Kiefer</span>
+                        <span id="rivero" class="text-end mx-5">Rivero</span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row p-0 m-0 separacion">
+                <h2 class="d-flex justify-content-center py-3">Jugador profesional</h2>
             </div>
         </div>
-    </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container-fluid row p-0 m-0">
+                <div class="col col-sm-4 izquierda letrasizquierda">
+                    <div class="m-5">
+                        <!-- CONTACTO -->
+                        <h3>Contacto</h3>
+                        <br>
+                        <p><i class="fa-solid fa-phone iconoizquierda"></i> (56) 9 7431 3421</p>
+                        <p><i class="fa-solid fa-envelope iconoizquierda"></i> nicolas.rivero@gmail.com</p>
+                        <p> <i class="fa-brands fa-discord iconoizquierda"></i> kiefer</p>
+                        <br><br>
+                        <!-- HABILIDADES -->
+                        <h3>Habilidades</h3>
+                        <br>
+                        <ul>
+                            <li>Conocimiento profundo del juego</li>
+                            <li>Comunicación clara y concisa</li>
+                            <li>Adaptabilidad y flexibilidad</li>
+                            <li>Liderazgo en equipos</li>
+                        </ul>
+                        <br><br>
 
 
 
+                        <h3>Idiomas</h3>
+                        <br>
+                        <p><i class="flag-icon flag-icon-es"></i>
+                            Español nativo</p>
+                        <p><i class="flag-icon flag-icon-us"></i>
+                            Inglés intermedio</p>
+                        <p><i class="flag-icon flag-icon-br"></i>
+                            Portugués básico</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="m-5">
+
+                        <h3>Acerca de mi</h3> 
+                        <br>
+                        <p class="parrafoderecha">Mi nombre es Nicolás Rivero Kiefer, nací el 27 de febrero de 2001 en
+                            Santiago, Chile. Desde 2018 hasta la actualidad soy esport pro gamer (Jugador profesional de
+                            deportes electrónicos), específicamente en el videojuego League of Legends, conocido por mi
+                            nickname "Kiefer". Con 7 años de experiencia y habiendo formado parte de 10 equipos
+                            diferentes, he conseguido logros como campeón de la LHE (Chile), campeón de la LMF
+                            (Argentina) y segundo lugar en la LLA, la máxima liga de Latinoamérica.</p>
+                            <br><br>
+                        <h3>Historial de equipos</h3>
+                        <br>
+                        <ul>
+                            <li>All Knights</li>
+                            <li>KRÜ Esports</li>
+                            <li>Leviatan</li>
+                            <li>INFINITY</li>
+                        </ul>
+                        <br><br>
+
+                        <h3>Logros</h3>
+                        <br>
+                        <ol>
+                            <li>Julio 2024 - Tercer lugar LRS 2024 Playoffs</li>
+                            <li>Marzo 2023 - Primer lugar LMF 2023 Opening Playoffs</li>
+                            <li>Julio 2022 - Tercer-Cuarto lugar LMF 2022 Closing Playoffs</li>
+                            <li>Marzo 2021 - Tercer lugar LLA 2021 Opening Playoffs</li>
+                            <li>Agosto 2020 - Segundo lugar LLA 2020 Closing Playoffs</li>
+                            <li>Abril 2020 - Primer lugar LHE 2020 Opening Playoffs</li>
+                            <li>Agosto 2019 - Segundo lugar LHE 2019 Closing Playoffs</li>
+                            <li>Octubre 2018 - Segundo lugar AGS 2018</li>
+                            <li>Octubre 2018 - Segundo lugar CNC 2018 Closing</li>
+                            <li>Agosto 2018 - Primer lugar Musimundo Gaming Week 2018</li>
+                        </ol>
+                        <br><br>
 
 
 
+                        <h3>Logros individuales</h3>
+                        <br>
+                        <ul>
+                            <li>LLA All Pro Team (Closing 2020)</li>
+                            <li>LLA Outstanding Rookie (Closing 2020)</li>
+                            <li>LHE Finals MVP (Opening 2020)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
 
 
-
-
+    </main>
 
     <!-- SCRIPT DE bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>

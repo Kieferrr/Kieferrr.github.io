@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.izquierda {
+    background-color: rgb(70, 70, 243);
+}
+
+.derecha {
+    background: rgb(230, 225, 225);
+}
+
+.separacion {
+    background: rgb(240, 220, 195);
+
+}
+
+#nicolas {
+    font-size: 2em;
+    font-family: "Overpass", serif;
+}
+
+#kiefer {
+    font-size: 2.5em;
+    font-family: "Overpass", serif;
+    font-style: italic;
+
+}
+
+#rivero {
+    font-size: 2em;
+    font-family: "Overpass", serif;
+}
+
+
+.letrasizquierda {
+    font-family: "Overpass", serif;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.6em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 15px;
+}
+
+.letrasderecha {
+    color: aliceblue;
+}
+
+
+.parrafoderecha {
+    text-align: justify;
+}
