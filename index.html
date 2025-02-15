@@ -16,6 +16,7 @@
         rel="stylesheet">
     <!-- CDN fontawesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- FLAGS ICON  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
 </head>
 <!-- CSS -->
@@ -37,16 +38,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#acercademi">Acerca de mi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#equipos">Equipos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                <a class="nav-link" href="#logros">Logros</a>
                             </li>
                         </ul>
                     </div>
@@ -70,96 +68,120 @@
             </div>
 
             <div class="row p-0 m-0 separacion">
-                <h2 class="d-flex justify-content-center py-3">Jugador profesional</h2>
+                <h2 class="d-flex justify-content-center m-0 py-3">Jugador profesional</h2>
             </div>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <div class="container-fluid row p-0 m-0">
-                <div class="col col-sm-4 izquierda letrasizquierda">
+            <!-- ROW MAIN -->
+            <div class="row p-0 m-0">
+                <!-- COL IZQUIERDA -->
+                <div class="col col-sm-4 izquierda fuenteizquierda">
                     <div class="m-5">
                         <!-- CONTACTO -->
-                        <h3>Contacto</h3>
-                        <br>
-                        <p><i class="fa-solid fa-phone iconoizquierda"></i> (56) 9 7431 3421</p>
-                        <p><i class="fa-solid fa-envelope iconoizquierda"></i> nicolas.rivero@gmail.com</p>
-                        <p> <i class="fa-brands fa-discord iconoizquierda"></i> kiefer</p>
-                        <br><br>
+                        <section>
+                            <h3>Contacto</h3>
+                            <br>
+                            <p><i class="fa-solid fa-phone iconoizquierda"></i> (56) 9 7431 3421</p>
+                            <p><i class="fa-solid fa-envelope iconoizquierda"></i> nicolas.rivero@gmail.com</p>
+                            <p> <i class="fa-brands fa-discord iconoizquierda"></i> kiefer</p>
+                            <br><br>
+                        </section>
                         <!-- HABILIDADES -->
-                        <h3>Habilidades</h3>
-                        <br>
-                        <ul>
-                            <li>Conocimiento profundo del juego</li>
-                            <li>Comunicación clara y concisa</li>
-                            <li>Adaptabilidad y flexibilidad</li>
-                            <li>Liderazgo en equipos</li>
-                        </ul>
-                        <br><br>
-
-
-
-                        <h3>Idiomas</h3>
-                        <br>
-                        <p><i class="flag-icon flag-icon-es"></i>
-                            Español nativo</p>
-                        <p><i class="flag-icon flag-icon-us"></i>
-                            Inglés intermedio</p>
-                        <p><i class="flag-icon flag-icon-br"></i>
-                            Portugués básico</p>
+                        <section>
+                            <h3>Habilidades</h3>
+                            <br>
+                            <ul style="padding-left:px;">
+                                <li>Conocimiento profundo del juego</li>
+                                <li>Comunicación clara y concisa</li>
+                                <li>Adaptabilidad y flexibilidad</li>
+                                <li>Liderazgo en equipos</li>
+                            </ul>
+                            <br><br>
+                        </section>
+                        <!-- IDIOMAS -->
+                        <section>
+                            <h3>Idiomas</h3>
+                            <br>
+                            <p><i class="flag-icon flag-icon-es"></i>
+                                Español nativo</p>
+                            <p><i class="flag-icon flag-icon-us"></i>
+                                Inglés intermedio</p>
+                            <p><i class="flag-icon flag-icon-br"></i>
+                                Portugués básico</p>
+                        </section>
 
 
                     </div>
                 </div>
-
-                <div class="col derecha">
+                <!-- COL DERECHA -->
+                <div class="col derecha fuentederecha">
                     <div class="m-5">
-
-                        <h3>Acerca de mi</h3> 
-                        <br>
-                        <p class="parrafoderecha">Mi nombre es Nicolás Rivero Kiefer, nací el 27 de febrero de 2001 en
-                            Santiago, Chile. Desde 2018 hasta la actualidad soy esport pro gamer (Jugador profesional de
-                            deportes electrónicos), específicamente en el videojuego League of Legends, conocido por mi
-                            nickname "Kiefer". Con 7 años de experiencia y habiendo formado parte de 10 equipos
-                            diferentes, he conseguido logros como campeón de la LHE (Chile), campeón de la LMF
-                            (Argentina) y segundo lugar en la LLA, la máxima liga de Latinoamérica.</p>
+                        <!-- ACERCA DE MI -->
+                        <section id="acercademi">
+                            <h3>Acerca de mi</h3>
+                            <br>
+                            <p class="parrafoderecha">Mi nombre es Nicolás Rivero Kiefer, nací el 27 de febrero de 2001
+                                en
+                                Santiago, Chile. Desde 2018 hasta la actualidad soy esport pro gamer (Jugador
+                                profesional de
+                                deportes electrónicos), específicamente en el videojuego League of Legends, conocido por
+                                mi
+                                nickname "Kiefer". Con 7 años de experiencia y habiendo formado parte de 10 equipos
+                                diferentes, he conseguido logros como campeón de la LHE (Chile), campeón de la LMF
+                                (Argentina) y segundo lugar en la LLA, la máxima liga de Latinoamérica.</p>
                             <br><br>
-                        <h3>Historial de equipos</h3>
-                        <br>
-                        <ul>
-                            <li>All Knights</li>
-                            <li>KRÜ Esports</li>
-                            <li>Leviatan</li>
-                            <li>INFINITY</li>
-                        </ul>
-                        <br><br>
-
+                        </section>
+                        <!-- HISTORIAL DE EQUIPOS -->
+                        <section id="equipos">
+                            <h3>Historial de equipos</h3>
+                            <br>
+                            <ul class="listahistorial">
+                                <li>Abril 2024 - Julio 2024 // <strong>Undead Gaming</strong></li>
+                                <li>Diciembre 2023 - Abril 2024 // <strong>INFINITY</strong></li>
+                                <li>Mayo 2023 - Septiembre 2023 // <strong>Leviatán</strong></li>
+                                <li>Enero 2023 - Mayo 2023 // <strong>Pampas</strong> </li>
+                                <li>Mayo 2022 - Agosto 2022 // <strong>KRÜ Esports</strong></li>
+                                <li>Mayo 2020 - Mayo 2022 // <strong>All Knights</strong></li>
+                                <li>Mayo 2019 - Mayo 2020 // <strong>Rebirth eSports</strong></li>
+                                <li>Diciembre 2018 - Mayo 2019 // <strong>UC Esports</strong></li>
+                                <li>Junio 2018 - Noviembre 2018 // <strong>Bring It On</strong></li>
+                            </ul>
+                            <br><br>
+                        </section>
+                        <!-- LOGROS -->
+                        <section id="logros"></section>
                         <h3>Logros</h3>
                         <br>
-                        <ol>
-                            <li>Julio 2024 - Tercer lugar LRS 2024 Playoffs</li>
-                            <li>Marzo 2023 - Primer lugar LMF 2023 Opening Playoffs</li>
-                            <li>Julio 2022 - Tercer-Cuarto lugar LMF 2022 Closing Playoffs</li>
-                            <li>Marzo 2021 - Tercer lugar LLA 2021 Opening Playoffs</li>
-                            <li>Agosto 2020 - Segundo lugar LLA 2020 Closing Playoffs</li>
-                            <li>Abril 2020 - Primer lugar LHE 2020 Opening Playoffs</li>
-                            <li>Agosto 2019 - Segundo lugar LHE 2019 Closing Playoffs</li>
-                            <li>Octubre 2018 - Segundo lugar AGS 2018</li>
-                            <li>Octubre 2018 - Segundo lugar CNC 2018 Closing</li>
-                            <li>Agosto 2018 - Primer lugar Musimundo Gaming Week 2018</li>
-                        </ol>
-                        <br><br>
-
-
-
-                        <h3>Logros individuales</h3>
-                        <br>
-                        <ul>
-                            <li>LLA All Pro Team (Closing 2020)</li>
-                            <li>LLA Outstanding Rookie (Closing 2020)</li>
-                            <li>LHE Finals MVP (Opening 2020)</li>
+                        <ul class="listalogros">
+                            <li><i class="fas fa-medal tercerlugar"></i>
+                                Tercer lugar LRS Playoffs (2024)</li>
+                            <li><i class="fas fa-trophy primerlugar"></i> Primer lugar LMF Opening Playoffs (2023)</li>
+                            <li><i class="fas fa-medal tercerlugar"></i> Tercer-Cuarto lugar LMF Closing Playoffs (2022)
+                            </li>
+                            <li><i class="fas fa-medal tercerlugar"></i> Tercer lugar LLA Opening Playoffs (2021)</li>
+                            <li><i class="fas fa-medal segundolugar"></i> Segundo lugar LLA Closing Playoffs (2020)</li>
+                            <li><i class="fas fa-trophy primerlugar"></i> Primer lugar LHE Opening Playoffs (2020)</li>
+                            <li><i class="fas fa-medal segundolugar"></i> Segundo lugar LHE Closing Playoffs (2019)</li>
+                            <li><i class="fas fa-medal segundolugar"></i> Segundo lugar AGS (2018)</li>
+                            <li><i class="fas fa-medal segundolugar"></i> Segundo lugar CNC Closing (2018)</li>
+                            <li><i class="fas fa-trophy primerlugar"></i> Primer lugar Musimundo Gaming Week (2018)</li>
                         </ul>
+                        </section>
+                        <br><br>
+                        <!-- LOGROS INDIVIDUALES -->
+                        <section>
+
+                            <h3>Logros individuales</h3>
+                            <br>
+                            <ul class="listalogros">
+                                <li><i class="fas fa-medal primerlugar"></i>LLA All Pro Team (Closing 2020)</li>
+                                <li><i class="fas fa-medal primerlugar"></i>LLA Outstanding Rookie (Closing 2020)</li>
+                                <li><i class="fas fa-medal primerlugar"></i>LHE Finals MVP (Opening 2020)</li>
+                            </ul>
+                        </section>
                     </div>
                 </div>
 
@@ -167,9 +189,14 @@
 
         </div>
 
-
-
     </main>
+    <!-- FOOTER -->
+    <footer class="container">
+        <div class="row p-0 m-0 piedepagina">
+            <p class="d-flex justify-content-center m-0 py-2">CV Kiefer 2025. Visita mi&nbsp;<a href="portafolio.html" target="_blank"> portafolio</a></p>
+        </div>
+    </footer>
+
 
     <!-- SCRIPT DE bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -17,7 +17,12 @@ body {
 
 .separacion {
     background: rgb(240, 220, 195);
+    font-family: "Overpass", serif;
 
+}
+
+.navbar {
+    font-family: "Overpass", serif;
 }
 
 #nicolas {
@@ -37,11 +42,20 @@ body {
     font-family: "Overpass", serif;
 }
 
+.fuentederecha {
+    font-family: "Overpass", serif;
+}
 
-.letrasizquierda {
+
+.fuenteizquierda {
     font-family: "Overpass", serif;
     color: aliceblue;
     font-size: 1.3em;
+
+}
+
+.parrafoderecha {
+    text-align: justify;
 }
 
 h3 {
@@ -50,11 +64,36 @@ h3 {
     padding-bottom: 15px;
 }
 
+.listahistorial {
+    text-align: justify;
+
+}
+
+.listalogros {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .letrasderecha {
     color: aliceblue;
 }
 
+.primerlugar {
+    color: gold;
 
-.parrafoderecha {
-    text-align: justify;
+}
+
+.segundolugar {
+    color: silver;
+
+}
+
+.tercerlugar {
+    color: #cd7f32;
+
+}
+
+.piedepagina {
+    background-color: white;
+    font-family: "Overpass", serif;
 }
