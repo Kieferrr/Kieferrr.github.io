@@ -4,7 +4,8 @@ En este proyecto se encuentra mi CV y portafolio para la academia **Desafío Lat
 
 ## Deploy
 
-🔗https://kieferrr.github.io/
+CV 🔗https://kieferrr.github.io  
+Portafolio 🔗https://kieferrr.github.io/portafolio.html
 
 ## Forks y Commits
 
