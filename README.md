@@ -17,5 +17,5 @@ Portafolio 🔗https://kieferrr.github.io/portafolio.html
 🔗 [Repositorio original 2](https://github.com/mariselacevedor/mariselacevedor.github.io)  
 🔗 [Mi Fork 2](https://github.com/Kieferrr/ForkNumero2)
 
-Dentro de mi proyecto también se encontrarán capturas de pantalla de los forks y commits realizados. Agradezco a __ y __ por compartir sus repositorios
+Dentro de mi proyecto también se encontrarán capturas de pantalla de los forks y commits realizados. Agradezco a Marisela Acevedo y Andrés Peña por compartir sus repositorios
 
